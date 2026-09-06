@@ -1,0 +1,4 @@
+# Linux Server Monitoring
+*/5 * * * * /opt/linux-server-monitoring-alerting/scripts/system_monitor.sh
+*/5 * * * * /opt/linux-server-monitoring-alerting/scripts/service_check.sh
+*/5 * * * * /opt/linux-server-monitoring-alerting/scripts/network_check.sh
